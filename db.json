@@ -1,31 +1,75 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+    "posts": [
+      {
+      "took": 2,
+      "timed_out": false,
+      "_shards": {
+          "total": 5,
+          "successful": 5,
+          "skipped": 0,
+          "failed": 0
+      },
+      "hits": {
+          "total": 30,
+          "max_score": 5.55394,
+          "hits": [{
+              "_index": "confluence",
+              "_type": "document",
+              "_id": "ogZtEWoBGPxGK3rtieVV",
+              "_score": 5.55394,
+              "_source": {
+                  "author": "Саульева Анна Станиславовна",
+                  "title": "Продажи : Центр ных услуг «Мой бизнес»",
+                  "content": "Цель прое.00 до 17.00"
+              }
+          }, {
+              "_index": "confluence",
+              "_type": "document",
+              "_id": "TAZtEWoBGPxGK3rtgeVt",
+              "_score": 4.3286014,
+              "_source": {
+                  "author": "Редактор Продажи",
+                  "title": "Продажи : Серсей (ЭП)",
+                  "content": "С 09.07. СНГ 8(800)100-88-22 пн-пт круглосуточно"
+              }
+          }, {
+              "_index": "confluence",
+              "_type": "document",
+              "_id": "0gZtEWoBGPxGK3rtdOR4",
+              "_score": 3.3049884,
+              "_source": {
+                  "author": "Редактор Продажи",
+                  "title": "Продажи : Погашение кКонтракт",
+                  "content": "Вид."
+              }
+          }, {
+              "_index": "confluence",
+              "_type": "document",
+              "_id": "ogZtEWoBGPxGK3rtbOQt",
+              "_score": 2.9617445,
+              "_source": {
+                  "author": "Редактор Продажи",
+                  "title": "Продажи : Сервисия бизнеса",
+                  "content": "Сер"
+              }
+          }]
+      }
   }
-}
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
+  
