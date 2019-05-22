@@ -1,38 +1,31 @@
 {
-   "took": 2,
-   "_shards": {
-      "total": 5,
-      "successful": 5,
-      "skipped": 0,
-      "failed": 0
-   },
-   "hits": {
-      "total": 30,
-      "hits": [{
-         "_index": "confluence",
-         "_type": "document",
-         "_id": "ogZVV",
-         "_source": {
-            "author": "QW",
-            "title": "sdf",
-            "content": "alskdanfjweiflsdf sdfdfv"
-         }
-      }, {
-         "_index": "confluence",
-         "_type": "document",
-         "_id": "UQZtEWtguUH",
-         "_source": {
-            "author": "weriowuiouiowtuiouiowuiuioruio",
-            "title": "nklrjsergmwehlkjwlxkjshfklxgsdfhxgkshdlxfksjhdflkxgjshdfl"
-         }
-      }, {
-         "_index": "confluence",
-         "_type": "document",
-         "_source": {
-            "author": "sssssssssssssssssssssssssssss",
-            "title": "asddddddddddddddddddddddddd",
-            "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-         }
-      }]
-   }
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
