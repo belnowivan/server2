@@ -1,5 +1,5 @@
 {
-    "posts": [
+    "posts":
       {
       "took": 2,
       "timed_out": false,
@@ -54,8 +54,7 @@
               }
           }]
       }
-  }
-    ],
+  },
     "comments": [
       {
         "id": 1,
