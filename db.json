@@ -1,6 +1,5 @@
 {
    "took": 2,
-   "timed_out": false,
    "_shards": {
       "total": 5,
       "successful": 5,
@@ -9,35 +8,30 @@
    },
    "hits": {
       "total": 30,
-      "max_score": 5.55394,
       "hits": [{
          "_index": "confluence",
          "_type": "document",
          "_id": "ogZVV",
-         "_score": 5.55394,
          "_source": {
-            "author": "Саулвна",
-            "title": "Продажи : Цент",
-            "content": "Цоо/02"
+            "author": "QW",
+            "title": "sdf",
+            "content": "alskdanfjweiflsdf sdfdfv"
          }
       }, {
          "_index": "confluence",
          "_type": "document",
          "_id": "UQZtEWtguUH",
-         "_score": 5.2385488,
          "_source": {
-            "author": "Редактор Продажи",
-            "title": "Продажи : Ачно"
+            "author": "weriowuiouiowtuiouiowuiuioruio",
+            "title": "nklrjsergmwehlkjwlxkjshfklxgsdfhxgkshdlxfksjhdflkxgjshdfl"
          }
       }, {
          "_index": "confluence",
          "_type": "document",
-         "_id": "ZQZtEWoBUI",
-         "_score": 4.5955086,
          "_source": {
-            "author": "Редактор Продажи",
-            "title": "Продажи : час",
-            "content": "Места о9.0"
+            "author": "sssssssssssssssssssssssssssss",
+            "title": "asddddddddddddddddddddddddd",
+            "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
          }
       }]
    }
